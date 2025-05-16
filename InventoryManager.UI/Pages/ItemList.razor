@@ -1,0 +1,23 @@
+﻿@page "/items"
+
+@inject Services.ItemService itemService
+
+@if (items == null)
+{
+    <p>Loading...</p>
+}
+else if (items.Count == 0)
+{
+    <p>There is no Item</p>
+}
+else
+{
+    <ul>
+        @foreach (var item in items)
+        {
+            <li>@item.Name (Qty: @item.Quantity)</li>
+        }
+    </ul>
+}
+
+
