@@ -1,0 +1,44 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Visual Studio settings
+.vscode/
+.vs/
+*.dbmdl
+*.DS_Store
+
+# ASP.NET Core
+appsettings.Development.json
+appsettings.Local.json
+appsettings.*.json
+
+# Rider
+.idea/
+
+# Logs
+*.log
+
+# Dependency directories
+node_modules/
+wwwroot/
+
+# Blazor WASM specific
+InventoryManager.UI/bin/
+InventoryManager.UI/obj/
+InventoryManager.API/bin/
+InventoryManager.API/obj/
+
+# OS files
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Publish output
+publish/
